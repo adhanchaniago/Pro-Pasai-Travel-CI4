@@ -1,0 +1,160 @@
+CRITICAL - 2020-08-24 07:52:06 --> Call to undefined method App\Models\GalleryModel::getGallery
+#0 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/app/Controllers/Gallery.php(74): CodeIgniter\Model->__call()
+#1 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/CodeIgniter.php(918): App\Controllers\Gallery->update()
+#2 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/Commands/Server/rewrite.php(34): require_once('/media/egova/pr...')
+#6 {main}
+CRITICAL - 2020-08-24 07:52:26 --> Call to undefined method App\Models\GalleryModel::getGallery
+#0 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/app/Controllers/Gallery.php(74): CodeIgniter\Model->__call()
+#1 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/CodeIgniter.php(918): App\Controllers\Gallery->update()
+#2 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/Commands/Server/rewrite.php(34): require_once('/media/egova/pr...')
+#6 {main}
+CRITICAL - 2020-08-24 07:53:00 --> Undefined variable: rents
+#0 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/app/Views/layout-backend/pages/gallery/v_update.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/View/View.php(246): include('/media/egova/pr...')
+#2 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/Common.php(1119): CodeIgniter\View\View->render()
+#3 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/app/Views/index-backend.php(5): view()
+#4 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/View/View.php(246): include('/media/egova/pr...')
+#5 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/Common.php(1119): CodeIgniter\View\View->render()
+#6 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/app/Controllers/Gallery.php(77): view()
+#7 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/CodeIgniter.php(918): App\Controllers\Gallery->update()
+#8 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#9 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#10 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/Commands/Server/rewrite.php(34): require_once('/media/egova/pr...')
+#12 {main}
+CRITICAL - 2020-08-24 07:53:36 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::update() must be of the type array or null, bool given, called in /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/app/Models/NewsModel.php on line 37
+#0 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/app/Models/NewsModel.php(37): CodeIgniter\Database\BaseBuilder->update()
+#1 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/app/Controllers/News.php(66): App\Models\NewsModel->updateNews()
+#2 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/CodeIgniter.php(918): App\Controllers\News->update()
+#3 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/Commands/Server/rewrite.php(34): require_once('/media/egova/pr...')
+#7 {main}
+CRITICAL - 2020-08-24 09:10:32 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::update() must be of the type array or null, bool given, called in /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/app/Models/NewsModel.php on line 37
+#0 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/app/Models/NewsModel.php(37): CodeIgniter\Database\BaseBuilder->update()
+#1 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/app/Controllers/News.php(66): App\Models\NewsModel->updateNews()
+#2 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/CodeIgniter.php(918): App\Controllers\News->update()
+#3 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/Commands/Server/rewrite.php(34): require_once('/media/egova/pr...')
+#7 {main}
+CRITICAL - 2020-08-24 09:10:43 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::update() must be of the type array or null, bool given, called in /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/app/Models/NewsModel.php on line 37
+#0 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/app/Models/NewsModel.php(37): CodeIgniter\Database\BaseBuilder->update()
+#1 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/app/Controllers/News.php(66): App\Models\NewsModel->updateNews()
+#2 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/CodeIgniter.php(918): App\Controllers\News->update()
+#3 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/Commands/Server/rewrite.php(34): require_once('/media/egova/pr...')
+#7 {main}
+CRITICAL - 2020-08-24 09:11:09 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::update() must be of the type array or null, bool given, called in /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/app/Models/NewsModel.php on line 37
+#0 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/app/Models/NewsModel.php(37): CodeIgniter\Database\BaseBuilder->update()
+#1 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/app/Controllers/News.php(66): App\Models\NewsModel->updateNews()
+#2 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/CodeIgniter.php(918): App\Controllers\News->update()
+#3 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/Commands/Server/rewrite.php(34): require_once('/media/egova/pr...')
+#7 {main}
+CRITICAL - 2020-08-24 09:12:49 --> The original file is not a valid file.
+#0 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/HTTP/Files/UploadedFile.php(172): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/app/Controllers/News.php(63): CodeIgniter\HTTP\Files\UploadedFile->move()
+#2 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/CodeIgniter.php(918): App\Controllers\News->update()
+#3 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/Commands/Server/rewrite.php(34): require_once('/media/egova/pr...')
+#7 {main}
+CRITICAL - 2020-08-24 09:13:56 --> Undefined variable: rents
+#0 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/app/Views/layout-backend/pages/gallery/v_update.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/View/View.php(246): include('/media/egova/pr...')
+#2 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/Common.php(1119): CodeIgniter\View\View->render()
+#3 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/app/Views/index-backend.php(5): view()
+#4 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/View/View.php(246): include('/media/egova/pr...')
+#5 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/Common.php(1119): CodeIgniter\View\View->render()
+#6 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/app/Controllers/Gallery.php(77): view()
+#7 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/CodeIgniter.php(918): App\Controllers\Gallery->update()
+#8 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#9 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#10 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/Commands/Server/rewrite.php(34): require_once('/media/egova/pr...')
+#12 {main}
+CRITICAL - 2020-08-24 09:18:11 --> The original file is not a valid file.
+#0 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/HTTP/Files/UploadedFile.php(172): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/app/Controllers/Gallery.php(62): CodeIgniter\HTTP\Files\UploadedFile->move()
+#2 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/CodeIgniter.php(918): App\Controllers\Gallery->update()
+#3 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/Commands/Server/rewrite.php(34): require_once('/media/egova/pr...')
+#7 {main}
+CRITICAL - 2020-08-24 09:19:08 --> Call to undefined method App\Models\GalleryModel::updateGallery
+#0 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/app/Controllers/Gallery.php(65): CodeIgniter\Model->__call()
+#1 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/CodeIgniter.php(918): App\Controllers\Gallery->update()
+#2 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/Commands/Server/rewrite.php(34): require_once('/media/egova/pr...')
+#6 {main}
+CRITICAL - 2020-08-24 09:21:42 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::update() must be of the type array or null, bool given, called in /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/app/Models/GalleryModel.php on line 38
+#0 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/app/Models/GalleryModel.php(38): CodeIgniter\Database\BaseBuilder->update()
+#1 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/app/Controllers/Gallery.php(64): App\Models\GalleryModel->edit()
+#2 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/CodeIgniter.php(918): App\Controllers\Gallery->update()
+#3 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/Commands/Server/rewrite.php(34): require_once('/media/egova/pr...')
+#7 {main}
+CRITICAL - 2020-08-24 09:21:50 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::update() must be of the type array or null, bool given, called in /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/app/Models/GalleryModel.php on line 38
+#0 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/app/Models/GalleryModel.php(38): CodeIgniter\Database\BaseBuilder->update()
+#1 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/app/Controllers/Gallery.php(64): App\Models\GalleryModel->edit()
+#2 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/CodeIgniter.php(918): App\Controllers\Gallery->update()
+#3 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/Commands/Server/rewrite.php(34): require_once('/media/egova/pr...')
+#7 {main}
+CRITICAL - 2020-08-24 09:22:38 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::update() must be of the type array or null, bool given, called in /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/app/Models/GalleryModel.php on line 38
+#0 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/app/Models/GalleryModel.php(38): CodeIgniter\Database\BaseBuilder->update()
+#1 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/app/Controllers/Gallery.php(64): App\Models\GalleryModel->edit()
+#2 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/CodeIgniter.php(918): App\Controllers\Gallery->update()
+#3 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/Commands/Server/rewrite.php(34): require_once('/media/egova/pr...')
+#7 {main}
+CRITICAL - 2020-08-24 11:14:56 --> The original file is not a valid file.
+#0 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/HTTP/Files/UploadedFile.php(172): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/app/Controllers/News.php(104): CodeIgniter\HTTP\Files\UploadedFile->move()
+#2 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/CodeIgniter.php(918): App\Controllers\News->store()
+#3 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/Commands/Server/rewrite.php(34): require_once('/media/egova/pr...')
+#7 {main}
+CRITICAL - 2020-08-24 11:15:35 --> The original file is not a valid file.
+#0 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/HTTP/Files/UploadedFile.php(172): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/app/Controllers/News.php(104): CodeIgniter\HTTP\Files\UploadedFile->move()
+#2 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/CodeIgniter.php(918): App\Controllers\News->store()
+#3 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/Commands/Server/rewrite.php(34): require_once('/media/egova/pr...')
+#7 {main}
+CRITICAL - 2020-08-24 11:30:40 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::update() must be of the type array or null, string given, called in /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/app/Models/NewsModel.php on line 37
+#0 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/app/Models/NewsModel.php(37): CodeIgniter\Database\BaseBuilder->update()
+#1 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/app/Controllers/News.php(68): App\Models\NewsModel->updateNews()
+#2 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/CodeIgniter.php(918): App\Controllers\News->update()
+#3 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/Commands/Server/rewrite.php(34): require_once('/media/egova/pr...')
+#7 {main}

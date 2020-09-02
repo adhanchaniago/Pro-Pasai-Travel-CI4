@@ -1,0 +1,32 @@
+CRITICAL - 2020-08-25 10:55:10 --> unlink(/home/pasascom/frm_ci4/writable/debugbar/debugbar_1598324902.json): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/home/pa...', '/home/pasascom/...', 106, Array)
+#1 /home/pasascom/frm_ci4/system/Debug/Toolbar/Collectors/History.php(106): unlink('/home/pasascom/...')
+#2 /home/pasascom/frm_ci4/system/Debug/Toolbar.php(483): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles(1598326634, 20)
+#3 /home/pasascom/frm_ci4/system/Debug/Toolbar.php(455): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#4 /home/pasascom/frm_ci4/app/Config/Events.php(50): CodeIgniter\Debug\Toolbar->respond()
+#5 [internal function]: CodeIgniter\Events\Events::Config\{closure}()
+#6 /home/pasascom/frm_ci4/system/Events/Events.php(188): call_user_func(Object(Closure))
+#7 /home/pasascom/frm_ci4/system/CodeIgniter.php(293): CodeIgniter\Events\Events::trigger('pre_system')
+#8 /home/pasascom/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-08-25 16:39:03 --> Call to undefined method App\Models\GalleryModel::getBanner
+#0 /home/pasascom/frm_ci4/app/Controllers/Home.php(47): CodeIgniter\Model->__call('getBanner', Array)
+#1 /home/pasascom/frm_ci4/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#2 /home/pasascom/frm_ci4/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /home/pasascom/frm_ci4/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/pasascom/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-25 16:39:13 --> Call to undefined method App\Models\GalleryModel::getBanner
+#0 /home/pasascom/frm_ci4/app/Controllers/Home.php(47): CodeIgniter\Model->__call('getBanner', Array)
+#1 /home/pasascom/frm_ci4/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#2 /home/pasascom/frm_ci4/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /home/pasascom/frm_ci4/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/pasascom/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-25 16:40:10 --> Call to undefined method App\Models\GalleryModel::getBanner
+#0 /home/pasascom/frm_ci4/app/Controllers/Home.php(47): CodeIgniter\Model->__call('getBanner', Array)
+#1 /home/pasascom/frm_ci4/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#2 /home/pasascom/frm_ci4/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /home/pasascom/frm_ci4/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/pasascom/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

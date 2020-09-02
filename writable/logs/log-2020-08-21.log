@@ -1,0 +1,45 @@
+CRITICAL - 2020-08-21 22:56:38 --> Unable to connect to the database.
+#0 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/Database/BaseBuilder.php(2019): CodeIgniter\Database\BaseConnection->query()
+#2 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/app/Models/ContactModel.php(32): CodeIgniter\Database\BaseBuilder->getWhere()
+#3 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/app/Controllers/Home.php(37): App\Models\ContactModel->get()
+#4 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#5 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/Commands/Server/rewrite.php(34): require_once('/media/egova/pr...')
+#9 {main}
+CRITICAL - 2020-08-21 23:48:34 --> Invalid file: layout-backend/pages/trips/v_update.php
+#0 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/Common.php(1119): CodeIgniter\View\View->render()
+#2 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/app/Views/index-backend.php(5): view()
+#3 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/View/View.php(246): include('/media/egova/pr...')
+#4 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/Common.php(1119): CodeIgniter\View\View->render()
+#5 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/app/Controllers/Trip.php(79): view()
+#6 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/CodeIgniter.php(918): App\Controllers\Trip->update()
+#7 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#8 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#9 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/Commands/Server/rewrite.php(34): require_once('/media/egova/pr...')
+#11 {main}
+CRITICAL - 2020-08-21 23:48:47 --> Call to undefined method App\Models\GalleryModel::getGallery
+#0 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/app/Controllers/Gallery.php(74): CodeIgniter\Model->__call()
+#1 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/CodeIgniter.php(918): App\Controllers\Gallery->update()
+#2 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/Commands/Server/rewrite.php(34): require_once('/media/egova/pr...')
+#6 {main}
+CRITICAL - 2020-08-21 23:55:54 --> Invalid file: layout-backend/pages/trips/v_update.php
+#0 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/Common.php(1119): CodeIgniter\View\View->render()
+#2 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/app/Views/index-backend.php(5): view()
+#3 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/View/View.php(246): include('/media/egova/pr...')
+#4 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/Common.php(1119): CodeIgniter\View\View->render()
+#5 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/app/Controllers/Trip.php(80): view()
+#6 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/CodeIgniter.php(918): App\Controllers\Trip->update()
+#7 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#8 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#9 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/Commands/Server/rewrite.php(34): require_once('/media/egova/pr...')
+#11 {main}

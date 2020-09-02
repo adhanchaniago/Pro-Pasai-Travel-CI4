@@ -1,0 +1,46 @@
+CRITICAL - 2020-08-12 20:47:34 --> Unable to connect to the database.
+#0 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/Database/BaseBuilder.php(2019): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/app/Models/ContactModel.php(32): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#3 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/app/Controllers/Home.php(37): App\Models\ContactModel->get(1)
+#4 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#5 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-12 20:47:34 --> Uncaught ErrorException: chmod(): Operation not permitted in /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/Log/Handlers/FileHandler.php:157
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'chmod(): Operat...', '/media/egova/pr...', 157, Array)
+#1 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/Log/Handlers/FileHandler.php(157): chmod('/media/egova/pr...', 420)
+#2 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/Log/Logger.php(381): CodeIgniter\Log\Handlers\FileHandler->handle('critical', 'Unable to conne...')
+#3 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/Common.php(756): CodeIgniter\Log\Logger->log('critical', 'Unable to conne...', Array)
+#4 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/Debug/Exceptions.php(156): log_message('critical', 'Unable to conne...', Array)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\E
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-12 20:48:19 --> Unable to connect to the database.
+#0 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/Database/BaseBuilder.php(2019): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/app/Models/ContactModel.php(32): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#3 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/app/Controllers/Home.php(37): App\Models\ContactModel->get(1)
+#4 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#5 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-12 20:49:07 --> chmod(): Operation not permitted
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'chmod(): Operat...', '/media/egova/pr...', 198, Array)
+#1 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/Session/Handlers/FileHandler.php(198): chmod('/media/egova/pr...', 384)
+#2 [internal function]: CodeIgniter\Session\Handlers\FileHandler->read('e6f770c017b60f1...')
+#3 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/Session/Session.php(1005): session_start()
+#4 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/Session/Session.php(240): CodeIgniter\Session\Session->startSession()
+#5 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/Config/Services.php(788): CodeIgniter\Session\Session->start()
+#6 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/Config/BaseService.php(123): CodeIgniter\Config\Services::session(Object(Config\App), false)
+#7 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/Config/Services.php(769): CodeIgniter\Config\BaseService::getSharedInstance('session', NULL)
+#8 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/Common.php(957): CodeIgniter\Config\Services::session()
+#9 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/app/ThirdParty/myth-auth/src/Controllers/AuthController.php(26): service('session')
+#10 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/CodeIgniter.php(890): Myth\Auth\Controllers\AuthController->__construct()
+#11 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#12 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 /media/egova/programming/htdocs/Pro-Travel-PAI-Sumatera-Tours/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#14 {main}

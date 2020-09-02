@@ -1,0 +1,115 @@
+db pasascom_database
+user pasascom_root
+pw Asdasd13081996
+
+0. Login Menggunakan Package myth-auth : reset password egovaflavia@gmail.com / Egova Riva Gustino
+
+1. CAR RENTAL FOR TOURS AND EDUCATION 
+    nama mobil
+    harga
+    jam per hari
+    max penumpang
+    transmisi 
+    full acc 
+    no smoking
+    driver 1
+    fuel 1
+    foto
+
+2. EPIC PLEASURE FOR REGULAR TOURS
+    ==========================================================================================================
+    Akan ada table relugar 
+        relugar_kode
+        relugar_nama_paket
+        relugar_include
+        relugar_exclude
+        relugar_rute
+        relugar_trip_array
+        relugar_harga
+        relugar_desc
+        relugar_foto
+    Akan ada table trip
+        trip_id
+        trip_nama
+        trip_deskripsi
+    Testing
+    Carikan tabel unutk ini
+        relugar_Meeting Point:
+    ==========================================================================================================
+    2D1N
+        2D1N (Airport or Padang-Bukittinggi-Batusangkar-Padang or Airport)
+        2D1N (Airport or Padang-Bukittinggi-Payakumbuh-Padang or Airport)
+    3D2N
+        3D2N (Airport or Padang-Bukittinggi-Payakumbuh-Batusangkar-Padang or Airport)
+        3D2N (Airport or Padang-Solok-Sawahlunto-Batusangkar-Bukittinggi-Padang or Airport)
+    4D3N
+        4D3N (Airport or Padang-Puncak Lawang-Bukittinggi-Batusangkar-Padang City Tour-Padang or Airport)
+        4D3N (Airport or Padang-Puncak Lawang-Bukittinggi-Payakumbuh-Batusangkar-Padang or Airport)
+    5D4N
+        5D4N (Airport or Padang-Puncak Lawang-Bukittinggi-Payakumbuh-Batusangkar-Mandeh-Padang Tour City-Airport)
+
+3. SPECIAL TOURS FOR INSPIRED ADVENTURE
+    Rancangan
+        special_id
+        special_kode
+        special_kategori
+        special_nama_paket
+        special_include
+        special_exclude
+        special_trip_array
+        special_harga tabel ya
+        special_desc
+        special_foto
+
+    Island
+        Mandeh + Padang City Tours 2D1N ( 2 Day 1 Night )
+        One Day Pleasure In Mandeh + Padang City Tours
+    Tracking
+        3D2N Marapi +
+        3D2N Marapi & Singgalang
+        3D2N Marapi & Talang
+        3D2N Singgalang +
+        3D2N Singgalang & Talang
+        3D2N Talang +
+        4D3N Kerinci
+        4D3N Marapi, Singgalang, And Talang
+
+4. Gallery 
+    Mobil & Tours
+        gallery_id
+        gallery_foto
+        gallery_tanggal
+
+5. Profil
+    profil_id
+    profil_tentang
+    profil_candra
+    profil_evan
+    profil_no1
+    profil_no2
+
+6. News
+    news_id
+    news_judul
+    news_tgl
+    news_isi
+    news_foto
+    
+7. Contact
+    contact_website
+    contact_instagram
+    contact_facebook
+    contact_twitter
+    contact_youtube
+    contact_email
+    contact_alamat
+    contact_rek_bri
+    contact_rek_bni
+    contact_rek_bca
+    contact_candra
+    contact_evan
+    contact_no1
+    contact_no2
+
+
+
