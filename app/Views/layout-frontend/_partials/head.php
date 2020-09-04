@@ -18,4 +18,12 @@
     <link href="<?= base_url() ?>/assets-frontend/css/style_1.css" rel="stylesheet" type="text/css" />
     <!-- Modernizr JS -->
     <script src="<?= base_url() ?>/assets-frontend/js/modernizr-3.5.0.min.js"></script>
+
+    <style>
+        @media only screen and (max-width: 600px) {
+            #about {
+                margin-top: 120px;
+            }
+        }
+    </style>
 </head>

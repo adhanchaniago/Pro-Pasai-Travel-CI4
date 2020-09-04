@@ -5,7 +5,7 @@
                 <!-- <img src="<?= base_url() ?>/assets-frontend/images/logo.png" alt="img" /> -->
             </div>
             <div class="clearfix"></div>
-            <div class="col-12 col-md-4 col-lg-3">
+            <div class="col-12 col-md-4 col-lg-3" id="about">
                 <div class="footer_main_title py-3"> About</div>
                 <div class="footer_sub_about pb-3">
                     <p>“PASAI west sumatra tours” adalah rumah kami untuk menyambut kedatangan kamu di Sumatra Barat. Sekarang percayai hatimu, bahwa ini adalah kisah yang bermakna, dan kita akan merindukannya suatu hari nanti.</p>
