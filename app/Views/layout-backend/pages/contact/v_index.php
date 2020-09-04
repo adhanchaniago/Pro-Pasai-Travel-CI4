@@ -54,6 +54,22 @@
                                     </th>
                                 </tr>
                                 <tr>
+                                    <th width="10px">2</th>
+                                    <th>Instagram</th>
+                                    <td><?= $contacts->contact_instagram ?></td>
+                                    <th width="50px">
+                                        <a href="<?= base_url('admin/contact/update/' . $contacts->contact_id) ?>" class="btn btn-sm btn-warning"><span class="fa fa-edit"></span></a>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th width="10px">2</th>
+                                    <th>Tumbrl</th>
+                                    <td><?= $contacts->contact_tumbrl ?></td>
+                                    <th width="50px">
+                                        <a href="<?= base_url('admin/contact/update/' . $contacts->contact_id) ?>" class="btn btn-sm btn-warning"><span class="fa fa-edit"></span></a>
+                                    </th>
+                                </tr>
+                                <tr>
                                     <th width="10px">3</th>
                                     <th>Youtube</th>
                                     <td><?= $contacts->contact_youtube ?></td>

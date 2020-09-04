@@ -25,12 +25,22 @@
             <div class="col-12 col-md-9 align-self-center fh5co_mediya_right">
                 <div class="text-center d-inline-block">
                     <a href="<?= $contacts->contact_twitter ?>" target="_blank" class="fh5co_display_table">
-                        <div class="fh5co_verticle_middle"><i class="fa fa-instagram"></i></div>
+                        <div class="fh5co_verticle_middle"><i class="fa fa-twitter"></i></div>
                     </a>
                 </div>
                 <div class="text-center d-inline-block">
                     <a href="<?= $contacts->contact_facebook ?>" target="_blank" class="fh5co_display_table">
                         <div class="fh5co_verticle_middle"><i class="fa fa-facebook"></i></div>
+                    </a>
+                </div>
+                <div class="text-center d-inline-block">
+                    <a href="<?= $contacts->contact_instagram ?>" target="_blank" class="fh5co_display_table">
+                        <div class="fh5co_verticle_middle"><i class="fa fa-instagram"></i></div>
+                    </a>
+                </div>
+                <div class="text-center d-inline-block">
+                    <a href="<?= $contacts->contact_tumbrl ?>" target="_blank" class="fh5co_display_table">
+                        <div class="fh5co_verticle_middle"><i class="fa fa-tumblr"></i></i></div>
                     </a>
                 </div>
                 <div class="text-center d-inline-block">
@@ -44,7 +54,7 @@
                     </a>
                 </div>
 
-               
+
 
                 <div class="d-inline-block text-center dd_position_relative ">
                     <select class="form-control fh5co_text_select_option">

@@ -46,15 +46,23 @@
                                         <input value="<?= $contacts->contact_twitter ?>" type="text" class="form-control" name="tw" required>
                                     </div>
                                     <div class="form-group">
+                                        <label>Link Instagram</label>
+                                        <input value="<?= $contacts->contact_instagram ?>" type="text" class="form-control" name="ig" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Link Tumbrl</label>
+                                        <input value="<?= $contacts->contact_tumbrl ?>" type="text" class="form-control" name="tm" required>
+                                    </div>
+                                    <div class="form-group">
                                         <label>Link Youtube</label>
                                         <input value="<?= $contacts->contact_youtube ?>" type="text" class="form-control" name="yt" required>
                                     </div>
+                                </div>
+                                <div class="col-md-6">
                                     <div class="form-group">
                                         <label>Email</label>
                                         <input value="<?= $contacts->contact_email ?>" type="email" class="form-control" name="email" required>
                                     </div>
-                                </div>
-                                <div class="col-md-6">
                                     <div class="form-group">
                                         <label>Alamat</label>
                                         <input value="<?= $contacts->contact_alamat ?>" type="text" class="form-control" name="alamat" required>

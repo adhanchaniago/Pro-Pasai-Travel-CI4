@@ -11,6 +11,8 @@ class ContactModel extends Model
     protected $allowedFields = [
         'contact_facebook',
         'contact_twitter',
+        'contact_instagram',
+        'contact_tumbrl',
         'contact_youtube',
         'contact_email',
         'contact_alamat',

@@ -44,6 +44,8 @@ class Contact extends BaseController
 			$data = [
 				'contact_facebook' => $this->request->getPost('fb'),
 				'contact_twitter'  => $this->request->getPost('tw'),
+				'contact_instagram'  => $this->request->getPost('ig'),
+				'contact_tumbrl'  => $this->request->getPost('tm'),
 				'contact_youtube'  => $this->request->getPost('yt'),
 				'contact_email'    => $this->request->getPost('email'),
 				'contact_alamat'   => $this->request->getPost('alamat'),
