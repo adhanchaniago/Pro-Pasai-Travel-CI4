@@ -2,8 +2,8 @@
 <aside class="main-sidebar sidebar-dark-primary elevation-4">
 	<!-- Brand Logo -->
 	<a href="/admin/home" class="brand-link">
-		<img src="<?= base_url(); ?>/assets-backend/dist/img/Logo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
-		<span class="brand-text font-weight-light">PAI West Sumatera Tour</span>
+		<img src="<?= base_url(); ?>/logo_baru.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
+		<span class="brand-text font-weight-light">PASAI West Sumatera Tour</span>
 	</a>
 	<!-- Sidebar -->
 	<div class="sidebar">

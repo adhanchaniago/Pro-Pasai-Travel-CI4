@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <link rel="icon" href="<?= base_url() ?>/LogoAdmin.png">
+    <link rel="icon" href="<?= base_url() ?>/logo_baru.png">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title><?= $title ?></title>
     <!-- Tell the browser to be responsive to screen width -->
