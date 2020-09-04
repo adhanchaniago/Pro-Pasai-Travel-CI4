@@ -1,0 +1,24 @@
+CRITICAL - 2020-09-04 07:56:20 --> Cannot modify header information - headers already sent by (output started at P:\Server\Pro-Pasai-Travel-CI4\app\Config\Events.php:33)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'P:\\Server\\Pro-P...', 426, Array)
+#1 P:\Server\Pro-Pasai-Travel-CI4\system\Debug\Toolbar.php(426): header('Content-Type: a...')
+#2 P:\Server\Pro-Pasai-Travel-CI4\app\Config\Events.php(50): CodeIgniter\Debug\Toolbar->respond()
+#3 [internal function]: CodeIgniter\Events\Events::Config\{closure}()
+#4 P:\Server\Pro-Pasai-Travel-CI4\system\Events\Events.php(188): call_user_func(Object(Closure))
+#5 P:\Server\Pro-Pasai-Travel-CI4\system\CodeIgniter.php(293): CodeIgniter\Events\Events::trigger('pre_system')
+#6 P:\Server\Pro-Pasai-Travel-CI4\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-09-04 07:56:20 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at P:\Server\Pro-Pasai-Travel-CI4\app\Config\Events.php:33) in P:\Server\Pro-Pasai-Travel-CI4\system\Debug\Exceptions.php:164
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'P:\\Server\\Pro-P...', 164, Array)
+#1 P:\Server\Pro-Pasai-Travel-CI4\system\Debug\Exceptions.php(164): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-09-04 14:56:50 --> Class 'Myth\Auth\Filters\LoginFilter' not found
+#0 P:\Server\Pro-Pasai-Travel-CI4\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('admin', 'before')
+#1 P:\Server\Pro-Pasai-Travel-CI4\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 P:\Server\Pro-Pasai-Travel-CI4\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#3 P:\Server\Pro-Pasai-Travel-CI4\system\Commands\Server\rewrite.php(34): require_once('P:\\Server\\Pro-P...')
+#4 {main}

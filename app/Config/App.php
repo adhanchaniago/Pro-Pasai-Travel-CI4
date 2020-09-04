@@ -23,8 +23,8 @@ class App extends BaseConfig
 	| environments.
 	|
 	*/
-// 	public $baseURL = 'http://localhost:8080';
-	public $baseURL = 'http://pasaiwestsumatratours.com/';
+	public $baseURL = 'http://localhost:8080';
+	// public $baseURL = 'http://pasaiwestsumatratours.com/';
 
 
 	/*
@@ -103,7 +103,7 @@ class App extends BaseConfig
 	| dates with the date helper, and can be retrieved through app_timezone()
 	|
 	*/
-	public $appTimezone = 'Asian/Jakarta';
+	public $appTimezone = 'Asia/Jakarta';
 
 	/*
 	|--------------------------------------------------------------------------
